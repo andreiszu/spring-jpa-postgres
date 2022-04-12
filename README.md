@@ -6,3 +6,4 @@ First create, setup and run the Docker container with the database and then star
 
 1. docker pull postgres
 2. docker run -d --name dev-postgres -v ${HOME}/postgres-data/:/var/lib/postgresql/data -p 5432:5432 postgres
+3. java -jar jpa-integration-0.0.1
